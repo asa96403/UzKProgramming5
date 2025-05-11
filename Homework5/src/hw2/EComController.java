@@ -15,7 +15,7 @@ public class EComController {
 			System.err.println("More deatails:");
 			e.printStackTrace();
 		} catch (MissingShippingInfoException e) {
-			System.err.println("You did not pass in any ShippingInfo for Profile!: " + e.getMessage());
+			System.err.println("You did not pass in any ShippingInfo (null) for Profile!: " + e.getMessage());
 			System.err.println("More deatails:");
 			e.printStackTrace();
 		} catch (InvalidCustomerException e) {
